@@ -1,0 +1,151 @@
+header {
+    background-color:lightgray;
+}
+.header-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+nav {
+    display:flex;
+    flex-wrap:flex;
+
+}
+li {
+    font-size: clamp(16px,4vw,40px);
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    font-size:clamp(20px,8vw,60px);
+}
+
+h2 {
+    font-family: Verdana, Sans-serif;
+    font-size:clamp(20px,8vw,60px)
+}
+
+#backgroundhero {
+    height:10vh;
+}
+
+
+.sectionclass {
+    display:flex;
+    align-items: stretch;
+    justify-content:space-between;
+
+}
+.sectionclass > h2 {
+    flex: 0 0 20%;
+    text-align:right;
+    padding-right:3vw;
+    min-width:247px;
+    border-right:lightgray solid 8px;
+}
+
+.sectionclass > div {
+    flex:0 0 77%;
+    justify-content:flex-start;
+    display: flex;
+}
+
+.marginleft {
+    margin-left: clamp(10px,2vw,20px);
+
+}
+
+.marginp {
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+}
+
+#marginsyedqadri {
+    margin: 10vh 10vw;
+}
+
+
+.project1 {
+    font-size: 20px;
+    width:400px;
+    height:200px;
+    background-color:beige;
+    text-align: center;
+    margin-top:100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.projectregular {
+    font-size: 20px;
+    width:195px;
+    height: 100px;
+    background-color:beige;
+    text-align:center;
+    margin:10px;
+}
+
+@media only screen and (max-width: 540px) {
+    .sectionclass > h2 {
+        min-width: 100px;
+        font-size: clamp(20px,4vw,60px);
+    }
+    .project1 {
+        width:200px;
+        height:100px;
+        font-size: 20px;
+    }
+    .projectregular {
+        width:95px;
+        height:50px;
+
+    }
+}
+
+.work {
+    margin-top: 100px;
+}
+.margintop {
+    margin-top:20px;
+}
+
+section {
+    width: 80%;
+}
+
+.picture1 {
+    height: 50%;
+    width: 50%;
+    display: inline;
+    margin:20px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.aboutme {
+    margin-top:100px;
+}
